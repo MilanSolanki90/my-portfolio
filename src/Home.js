@@ -89,7 +89,7 @@ const Home = () => {
                     <div className="experience-card" data-aos="flip-right" data-aos-delay="200">
                         <h3>React.js Intern</h3>
                         <h4>Maxgen Technologies Pvt Ltd</h4>
-                        <p className="duration">Jan 2025 – Jun 2025</p>
+                        <p className="duration">Jan 2025 – may 2025</p>
                         <p>
                             Completed a 6-month internship focusing on responsive React.js applications, component architecture,
                             API integration, and user interface design.
