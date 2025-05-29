@@ -1,0 +1,19 @@
+/* Navbar.css */
+
+.navbar {
+    background-color: #f8f9fa; /* light gray */
+    height: 60px;
+    display: flex !important;       /* override Bootstrap */
+    justify-content: center !important; /* center horizontally */
+    align-items: center !important; /* center vertically */
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  }
+  
+  .navbar-brand {
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: #0d6efd;
+    cursor: default;
+    margin: 0;
+  }
+  

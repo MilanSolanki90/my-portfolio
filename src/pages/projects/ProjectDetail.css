@@ -1,0 +1,60 @@
+.project-detail {
+    padding: 40px 30px;
+    max-width: 900px;
+    margin: 60px auto;
+    background: #ffffff;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.12);
+    border-radius: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333333;
+    line-height: 1.6;
+    transition: box-shadow 0.3s ease;
+  }
+  
+  .project-detail:hover {
+    box-shadow: 0 12px 40px rgba(0, 0, 0, 0.18);
+  }
+  
+  .project-detail h2 {
+    font-size: 2.5rem;
+    color: #111111;
+    margin-bottom: 25px;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+  }
+  
+  .project-detail p {
+    font-size: 1.2rem;
+    margin-bottom: 25px;
+    color: #555555;
+  }
+  
+  .project-detail ul {
+    list-style-type: disc;
+    padding-left: 25px;
+    margin-bottom: 30px;
+  }
+  
+  .project-detail li {
+    margin-bottom: 12px;
+    font-size: 1.1rem;
+    color: #444444;
+  }
+  
+  /* Optional: Responsive */
+  @media (max-width: 600px) {
+    .project-detail {
+      padding: 30px 20px;
+      margin: 40px 15px;
+    }
+  
+    .project-detail h2 {
+      font-size: 2rem;
+    }
+  
+    .project-detail p,
+    .project-detail li {
+      font-size: 1rem;
+    }
+  }
+  
